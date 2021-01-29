@@ -1,0 +1,3 @@
+name: demo-container-infr
+runtime: go
+description: A minimal Google Cloud Go Pulumi program

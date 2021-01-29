@@ -1,0 +1,14 @@
+version: 1.0
+orgid: ""
+projectName: ""
+projectId: ""
+cloudrun:
+  serviceapi: "run.googleapis.com"
+  computeserviceapi: "compute.googleapis.com"
+  service:
+    name: "aaa"
+    image: "gcr.io/ai-gcp-test-project/demo-container"
+  urlmap:
+    name: "my-urlmap"
+  iam:
+    name: "my-iammember"
